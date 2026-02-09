@@ -49,7 +49,7 @@ python train.py \
     --prompt_dim 256 \
     --prompt_lr 1e-4 \
     --kapt_alpha 0.1 \
-    --structure_noise_scale 0.1
+    --structure_noise_scale 0
 
 ```
 
@@ -78,7 +78,7 @@ python train.py \
     --prompt_dim 256 \
     --prompt_lr 1e-4 \
     --kapt_alpha 0.1 \
-    --structure_noise_scale 0.1
+    --structure_noise_scale 0
 
 ```
 
