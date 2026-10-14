@@ -4,14 +4,14 @@
     "python": "3.12.10",
     "numpy": "2.2.6",
     "scikit_learn": "1.7.2",
-    "torch": "not installed in the local build environment"
+    "torch": "not installed in the Python 3.12 build environment; Anaconda base has torch 2.0.1+cu118"
   },
   "checks": {
     "early_stopping_unittest": {"tests": 6, "passed": 6},
     "ensemble_unittest": {"tests": 10, "passed": 10},
-    "prompt_runtime_unittest": "not run: optional PyTorch dependency unavailable",
+    "prompt_runtime_unittest": {"tests": 15, "passed": 15, "environment": "C:\\ProgramData\\Anaconda3\\python.exe; Python 3.8.5; torch 2.0.1+cu118"},
     "prompt_syntax": "passed",
-    "prompt_demo_runtime": "not run: optional PyTorch dependency unavailable",
+    "prompt_demo_runtime": "passed in the same Anaconda environment",
     "early_stopping_replay_node_tests": {"tests": 7, "passed": 7},
     "scope": "Synthetic fixtures only; no molecular benchmark or original checkpoint was evaluated."
   }

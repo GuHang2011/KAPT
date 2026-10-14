@@ -14,7 +14,7 @@ python -m unittest discover -s tests -p test_early_stopping.py -v
 python -m unittest discover -s tests -p test_ensemble.py -v
 ```
 
-`torch` is optional for CSV evaluation. Install it for prompt tests and `examples/prompt_smoke.py`, using the command in the README. The intended CPU check is Python 3.12, NumPy 2.2.6, scikit-learn 1.7.2 and PyTorch 2.6.0.
+`torch` is optional for CSV evaluation. Install it for prompt tests and `examples/prompt_smoke.py`, using the command in the README. The base Python 3.12 build environment did not contain PyTorch; prompt tests and the smoke example passed in the local Anaconda base environment with Python 3.8.5 and PyTorch 2.0.1+cu118. The intended clean CPU check is Python 3.12, NumPy 2.2.6, scikit-learn 1.7.2 and PyTorch 2.6.0.
 
 ## Input Contract
 
