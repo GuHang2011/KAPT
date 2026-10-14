@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-14",
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.2.6",
+    "scikit_learn": "1.7.2",
+    "torch": "not installed in the local build environment"
+  },
+  "checks": {
+    "early_stopping_unittest": {"tests": 6, "passed": 6},
+    "ensemble_unittest": {"tests": 10, "passed": 10},
+    "prompt_runtime_unittest": "not run: optional PyTorch dependency unavailable",
+    "prompt_syntax": "passed",
+    "prompt_demo_runtime": "not run: optional PyTorch dependency unavailable",
+    "early_stopping_replay_node_tests": {"tests": 7, "passed": 7},
+    "scope": "Synthetic fixtures only; no molecular benchmark or original checkpoint was evaluated."
+  }
+}
