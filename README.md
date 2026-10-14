@@ -32,7 +32,7 @@ python -m unittest discover -s tests -p test_early_stopping.py -v
 python -m unittest discover -s tests -p test_ensemble.py -v
 ```
 
-For the optional PyTorch components, install a wheel suitable for your machine using the [official installer](https://pytorch.org/get-started/locally/). The local CPU check uses `torch==2.6.0`:
+For the optional PyTorch components, install a wheel suitable for your machine using the [official installer](https://pytorch.org/get-started/locally/). The prompt tests were also run in the local Anaconda base environment (`Python 3.8.5`, `torch 2.0.1+cu118`); the project package metadata targets Python 3.10+ for the complete CLI. A current CPU check can use `torch==2.6.0`:
 
 ```sh
 python -m pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cpu
