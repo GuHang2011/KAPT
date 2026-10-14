@@ -1,5 +1,7 @@
 """Command-line access to CSV ensembling and validation-only early stopping."""
 
+from __future__ import annotations
+
 import argparse
 import json
 from pathlib import Path

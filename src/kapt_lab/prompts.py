@@ -7,6 +7,8 @@ These components are a learning extraction, not a complete molecular model.
 Graph prompts pool node features only; no edges or topology are consumed.
 """
 
+from __future__ import annotations
+
 from typing import Union
 
 import torch

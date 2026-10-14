@@ -1,5 +1,7 @@
 """Validated early stopping based exclusively on a validation metric."""
 
+from __future__ import annotations
+
 from math import isfinite
 from numbers import Integral, Real
 from typing import Literal

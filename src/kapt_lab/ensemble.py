@@ -1,5 +1,7 @@
 """Binary probability ensembling with explicit sample identity and evaluation."""
 
+from __future__ import annotations
+
 import csv
 from math import fsum, isfinite
 from numbers import Integral, Real
